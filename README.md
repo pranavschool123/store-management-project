@@ -15,10 +15,12 @@ Use your knowledge of object-oriented programming and class structure and design
 
 ## UML Diagram
 
-Put an image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here.
-
 ![UML Diagram for my project](<Copy of UML Diagram.jpg>)
 
 ## Description
 
-Write a description of your project here. Include what your store you made, and why you chose this topic. In your description, include as many vocab words from our class to explain how you represented the item/service from your store. If you have user input, explain how the user will interact with your store such as which questions are prompted to the user, what response is your program expecting, and how that is use to output information for your store in the console.
+This project displays a program used for store management, specifically in an electronics store. I named the store "Best Buy", after the famous electronics store. This store sells phones and tablets. I chose this topic because at the same moment while I was brainstorming ideas for this project, my dad asked me what phone he should get, as he is looking to buy a new one. This prompted me to think about this idea for a project, and then I just added tablets as well so that this store would sell both phones and tablets, making it more diverse.
+
+To represent the service of selling electronics in this store, one major thing I used were instance variables. Specifically, I used "name", "price", and "brand" in my superclass "Device", as shown in the UML diagram. I also used the instance variable "operatingSystem" in one of my subclasses "Phone". I also used the instance variable "screenSize" in my other subclass "Tablet". I also made sure to make the access modifiers in the classes private, since all instance variables should be private. I also refactored over and over again, improving the readability of the code. I made sure to use both no-argument constructors and parameterized constructors in the cases that each of them were needed.
+
+There is user input in this project. The user will need to run the program, and will then be prompted with a question asking whether they want to purchase a tablet or phone. After answering this, they will be asked to enter either the phone name or the tablet name based on whichver one they initially picked. Then, the user will put in a price for the device. Then, the user will put in a brand for the device. Then, the user will enter either an operating system or a screen size, depending on if they picked a phone or tablet, respectively. After entering these pieces of information, they will be outputted with a line containing their purchase order.
